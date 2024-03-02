@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "first_name": "Benita",
+    "last_name": "Tzar",
+    "email": "btzar0@cnn.com",
+    "gender": "Female",
+    "job_title": "Executive Secretary"
+  },
+  {
+    "id": 2,
+    "first_name": "Caroline",
+    "last_name": "McCarly",
+    "email": "cmccarly1@unblog.fr",
+    "gender": "Female",
+    "job_title": "Geologist I"
+  },
+  {
+    "id": 3,
+    "first_name": "Dyane",
+    "last_name": "Dorro",
+    "email": "ddorro2@scientificamerican.com",
+    "gender": "Bigender",
+    "job_title": "Mechanical Systems Engineer"
+  },
+  {
+    "id": 4,
+    "first_name": "Bevan",
+    "last_name": "Crankhorn",
+    "email": "bcrankhorn3@oakley.com",
+    "gender": "Male",
+    "job_title": "Web Designer I"
+  },
+  {
+    "id": 5,
+    "first_name": "Jamie",
+    "last_name": "Yerill",
+    "email": "jyerill4@wiley.com",
+    "gender": "Male",
+    "job_title": "Professor"
+  },
+  {
+    "id": 6,
+    "first_name": "Katherina",
+    "last_name": "Dowall",
+    "email": "kdowall5@msu.edu",
+    "gender": "Female",
+    "job_title": "Quality Engineer"
+  },
+  {
+    "id": 7,
+    "first_name": "Bernardina",
+    "last_name": "Vitall",
+    "email": "bvitall6@state.gov",
+    "gender": "Bigender",
+    "job_title": "Project Manager"
+  },
+  {
+    "id": 8,
+    "first_name": "Karlyn",
+    "last_name": "Bryenton",
+    "email": "kbryenton7@arstechnica.com",
+    "gender": "Female",
+    "job_title": "Budget/Accounting Analyst II"
+  },
+  {
+    "id": 9,
+    "first_name": "Perry",
+    "last_name": "Hulance",
+    "email": "phulance8@weibo.com",
+    "gender": "Male",
+    "job_title": "General Manager"
+  },
+  {
+    "id": 10,
+    "first_name": "Mella",
+    "last_name": "Blow",
+    "email": "mblow9@sakura.ne.jp",
+    "gender": "Female",
+    "job_title": "Mechanical Systems Engineer"
+  }
+]
