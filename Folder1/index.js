@@ -1,8 +1,11 @@
 const express = require('express');
 const users = require('./MOCK_DATA.json');
+const fs = require('fs');
 
 const app = express();
 const PORT = 8000;
+
+app.use(express.urlencoded({extended:false}));
 
 app.get('/users',(req,res)=>{
     const html = `
@@ -15,6 +18,7 @@ app.get('/users',(req,res)=>{
 
 
 app.get('/api/users',(req,res)=>{
+    res.setHeader("X-myName","Neha Thakor");
     return res.json(users);
 })
 
@@ -31,8 +35,12 @@ app.route('/api/users/:id').get((req,res)=>{
 
 
 app.post('/api/users',(req,res)=>{
-    return res.json({status: "pending"})
-})
+    const body = req.body;
+    users.push({...body, id: users.length + 1});
+    fs.writeFile("./MOCK_DATA.json",JSON.stringify(users),(err,data)=>{
+        return res.json({status: "success"})
+    });
+});
 
 // app.patch('/api/users/:id',(req,res)=>{
 //     return res.json({status: "pending"})
